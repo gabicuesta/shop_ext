@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+   
+    "name": "Turbo Shop",
+    "version": "0.1.0",
+    "description": "Improve your shopping experience",
+   
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://www.telecompra.mercadona.es/ns/*"]
+    }]
+   
+  }
